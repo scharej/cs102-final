@@ -1,0 +1,32 @@
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	width: 100%;
+	background-color: #fff;
+}
+nav ul li{
+	display: inline-block;
+	position: relative;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	font-weight: bold;
+	line-height: 40px;
+}
+nav ul li ul{
+	position: absolute;
+	display: none;
+	min-width: 100%;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li ul li{
+	display: block;
+}
+nav ul li ul li a{
+	text-align: center;
+}
